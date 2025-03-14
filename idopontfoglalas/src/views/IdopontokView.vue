@@ -1,4 +1,7 @@
 <script setup>
+import { useIdopontfoglalasStore } from '@/stores/idopontfoglalas';
+
+const idopontfoglalasStore = useIdopontfoglalasStore()
 </script>
 
 <template>
@@ -10,7 +13,7 @@
         <p class="card-text">{{ p.name }}</p>
       </div>
       <div class="card-footer text-center">
-        <button @click="idopontfoglalasStore.lefoglalas(p.id)" class="btn btn-outline-primary w-50">&#128722;</button>
+        <button @click="idopontfoglalasStore.lefoglalas(p.id)" class="btn btn-outline-primary w-50">kiválaszt</button>
       </div>
     </div>
   </div>
