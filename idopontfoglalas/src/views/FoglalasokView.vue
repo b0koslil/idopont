@@ -12,4 +12,4 @@
   import {useIdopontfoglalasStore} from '@/stores/idopontfoglalas.js'
   const idopontfoglalasStore = useIdopontfoglalasStore()
 
-</script> 
+</script>
