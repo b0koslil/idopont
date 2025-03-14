@@ -36,7 +36,5 @@ export const useIdopontfoglalasStore = defineStore('idopontfoglalas', () => {
     .catch(() => toast.error("Hiba"))
   }
 
-
-
-  return { idopontfoglalas , foglalasok, loadAll, lefoglalas, mentes}
+  return { idopontfoglalas, foglalasok, loadAll, lefoglalas, mentes}
 })
