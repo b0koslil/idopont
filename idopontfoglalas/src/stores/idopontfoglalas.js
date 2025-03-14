@@ -1,17 +1,17 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios'
-//import { useToast } from 'vue-toastification'
+import { useToast } from 'vue-toastification'
 
 export const useIdopontfoglalasStore = defineStore('idopontfoglalas', () => {
   const idopontfoglalas = ref([])
   const foglalasok = ref([])  
   const toast = useToast()
-  
+
   const loadAll = () => {
     fetch("http://localhost:3000/idopontfoglalas")
     .then(resp => resp.json())
-    .then(data => idopontfoglalas.value = data)
+    .then(data => foglalasok.value = data)
   }
 
   const lefoglalas = (id) =>{    
