@@ -1,12 +1,12 @@
 <script setup>
 import {onMounted} from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import { useBotStore } from '@/stores/idopontfoglalas.js'
+import { useIdopontfoglalasStore } from '@/stores/idopontfoglalas.js'
 
-const botStore = useIdopontfoglalasStore()
+const idopontfoglalasStore = useIdopontfoglalasStore()
 
 onMounted(() =>{
-  botStore.loadAll()
+  idopontfoglalasStore.loadAll()
 })
 
 </script>
