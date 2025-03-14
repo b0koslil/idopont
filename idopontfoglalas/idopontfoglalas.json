@@ -1,0 +1,32 @@
+{
+    "idopontfoglalas": [
+        {
+            "id": "1",
+            "name": "pszichológus"
+        },
+        {
+            "id": "2",
+            "name": "műkörmös"
+        },
+        {
+            "id": "3",
+            "name": "fodrász"
+        },
+        {
+            "id": "4",
+            "name": "orvos"
+        },
+        {
+            "id": "5",
+            "name": "műszaki vizsga"
+        },
+        {
+            "id": "6",
+            "name": "tetováló"
+        },
+        {
+            "id": "7",
+            "name": "hivatali ügyintézés"
+        }
+    ]
+}
