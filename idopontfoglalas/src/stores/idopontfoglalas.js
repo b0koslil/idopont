@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios'
-import { useToast } from 'vue-toastification'
+//import { useToast } from 'vue-toastification'
 
 export const useIdopontfoglalasStore = defineStore('idopontfoglalas', () => {
   const idopontfoglalas = ref([])
