@@ -14,7 +14,7 @@ onMounted(() =>{
 <template>
       <div class="container">
         <nav>
-          <RouterLink to="/home">Időpontok</RouterLink>&nbsp;&nbsp;
+          <RouterLink to="/">Időpontok</RouterLink>&nbsp;&nbsp;
           <RouterLink to="/foglalasok">Foglalások</RouterLink>
         </nav>
           <RouterView />
